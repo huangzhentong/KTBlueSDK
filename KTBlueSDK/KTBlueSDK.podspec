@@ -47,6 +47,6 @@ s.dependency 'YYWebImage'
 s.dependency 'YYCategories'
 
 s.dependency 'SVProgressHUD'
-s.vendored_frameworks = 'KTBlueSDK/Class/KTFindCarSDK.framework'
+s.vendored_frameworks = 'KTBlueSDK/Classes/KTFindCarSDK.framework'
 
 end
