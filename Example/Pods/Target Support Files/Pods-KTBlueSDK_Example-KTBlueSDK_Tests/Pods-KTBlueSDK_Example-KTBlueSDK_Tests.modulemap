@@ -1,0 +1,6 @@
+framework module Pods_KTBlueSDK_Example_KTBlueSDK_Tests {
+  umbrella header "Pods-KTBlueSDK_Example-KTBlueSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
