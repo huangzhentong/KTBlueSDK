@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/181310067@qq.com/KTBlueSDK'
+  s.homepage         = 'https://github.com/huangzhentong/KTBlueSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '181310067@qq.com' => 'huangzhentong@keytop.com.cn' }
-  s.source           = { :git => 'https://github.com/181310067@qq.com/KTBlueSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/huangzhentong/KTBlueSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
  # s.source_files = 'KTBlueSDK/Classes/**'
   
    s.resource_bundles = {
-     'KTBlueSDK' => ['KTBlueSDK/Assets/*. bundle']
+     'KTBlueSDK' => ['KTBlueSDK/Assets/*.bundle']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
@@ -47,6 +47,6 @@ s.dependency 'YYWebImage'
 s.dependency 'YYCategories'
 
 s.dependency 'SVProgressHUD'
- s.ios.vendored_frameworks = 'KTBlueSDK/Class/KTFindCarSDK.framework'
+s.vendored_frameworks = 'KTBlueSDK/Class/KTFindCarSDK.framework'
 
 end
