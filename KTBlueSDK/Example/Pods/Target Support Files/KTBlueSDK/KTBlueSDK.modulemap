@@ -1,0 +1,6 @@
+framework module KTBlueSDK {
+  umbrella header "KTBlueSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
