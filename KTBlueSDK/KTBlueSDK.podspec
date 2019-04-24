@@ -37,7 +37,8 @@ TODO: Add long description of the pod here.
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'CoreLocation', 'CoreMotion','Foundation','AVFoundation',
+   s.frameworks = 'UIKit', 'CoreLocation', 'CoreMotion','Foundation','AVFoundation'
+
 s.library = 'c++'
  
 s.dependency  'Masonry'
