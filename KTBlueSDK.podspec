@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTBlueSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of KTBlueSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ s.dependency 'IQKeyboardManager'
 s.dependency 'BasisModule'
 s.dependency 'YYModel'
 s.dependency 'YYWebImage'
-s.dependency 'YYCategories'
+#s.dependency 'YYCategories'
 
 s.dependency 'SVProgressHUD'
 s.vendored_frameworks = 'KTBlueSDK/Classes/KTFindCarSDK.framework'

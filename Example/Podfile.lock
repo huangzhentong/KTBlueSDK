@@ -36,7 +36,6 @@ PODS:
     - IQKeyboardManager
     - Masonry
     - SVProgressHUD
-    - YYCategories
     - YYModel
     - YYWebImage
   - Masonry (1.1.0)
@@ -44,9 +43,6 @@ PODS:
   - ReactiveObjC (3.0.0)
   - SVProgressHUD (2.2.5)
   - YYCache (1.0.4)
-  - YYCategories (1.0.4):
-    - YYCategories/no-arc (= 1.0.4)
-  - YYCategories/no-arc (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
@@ -68,7 +64,6 @@ SPEC REPOS:
     - ReactiveObjC
     - SVProgressHUD
     - YYCache
-    - YYCategories
     - YYImage
     - YYModel
     - YYWebImage
@@ -81,17 +76,16 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BasisModule: 3a15fd76207bc0c86de230a1d115be9e2785ec4b
   IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
-  KTBlueSDK: 5088466cc631112c1382f9e96ef32b32b15321f6
+  KTBlueSDK: 84715b4d0deed43f8cb4ee5a32f2a89bb163d7ac
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: c0132cd4f5ef4595a6a08dc19ac361b587124940
+PODFILE CHECKSUM: 2718837481d765a1ecef34e48ae5c8d19d5e195d
 
 COCOAPODS: 1.6.1
