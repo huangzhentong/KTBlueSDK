@@ -6,12 +6,12 @@
 //  Copyright © 2019 KT--stc08. All rights reserved.
 //
 
-#import "BaseModel.h"
+#import "KTBaseModel.h"
 
 #import <KTFindCarSDK/KTParkPointModel.h>
 NS_ASSUME_NONNULL_BEGIN
 //楼层信息
-@interface KTFloorInfoModel : BaseModel
+@interface KTFloorInfoModel : KTBaseModel
 @property(nonatomic)double spaceL;                      //高
 @property(nonatomic)double spaceW;                      //宽
 @property(nonatomic)double distancePerPixel;            //距离比例

@@ -6,7 +6,7 @@
 //  Copyright © 2019 KT--stc08. All rights reserved.
 //
 
-#import "BaseModel.h"
+#import "KTBaseModel.h"
 
 #import <KTFindCarSDK/KTIBeaconModel.h>
 #import <KTFindCarSDK/KTFloorInfoModel.h>
@@ -14,7 +14,7 @@
 @class KTParkInfoModel,KTIBeaconsInfoModel;
 NS_ASSUME_NONNULL_BEGIN
 //车场详情
-@interface KTParkDetailModel : BaseModel
+@interface KTParkDetailModel : KTBaseModel
 @property(nullable,nonatomic,strong)KTParkInfoModel* parkInfo;
 @property(nullable,nonatomic,strong)NSArray<KTIBeaconsInfoModel*>* ibeacons;
 @property(nullable,nonatomic,strong)NSArray<KTParkPointModel*>* keyPoints;
@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_END
 
 //停车场信息
-@interface KTParkInfoModel : BaseModel
+@interface KTParkInfoModel : KTBaseModel
 @property(nullable,nonatomic,copy)NSString* parkNo;                  //车位
 @property(nullable,nonatomic,copy)NSString* imgUrl;                  //图片
 @property(nullable,nonatomic,copy)NSString* carPlateNum;             //车牌号
@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_END
 @end
 
 
-@interface KTIBeaconsInfoModel : BaseModel
+@interface KTIBeaconsInfoModel : KTBaseModel
 @property(nullable,nonatomic,copy)NSString* floorId;                  //楼层
 @property(nullable,nonatomic,copy)NSString* uuid;                  //楼层
 @property(nullable,nonatomic,copy)NSArray<KTIBeaconModel *>*  items;                  //蓝牙信号

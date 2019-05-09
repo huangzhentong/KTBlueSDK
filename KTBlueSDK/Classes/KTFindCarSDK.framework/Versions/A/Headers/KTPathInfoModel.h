@@ -6,11 +6,11 @@
 //  Copyright © 2019 KT--stc08. All rights reserved.
 //
 
-#import "BaseModel.h"
+#import "KTBaseModel.h"
 #import <KTFindCarSDK/KTParkPointModel.h>
 NS_ASSUME_NONNULL_BEGIN
 //路径模型
-@interface KTPathInfoModel : BaseModel
+@interface KTPathInfoModel : KTBaseModel
 @property(nullable,nonatomic,strong)KTParkPointModel *endVerticalPoint;
 @property(nullable,nonatomic,strong)KTParkPointModel *beginVerticalPoint;
 @property(nullable,nonatomic,strong)NSArray <KTParkPointModel *>*pathPoints;

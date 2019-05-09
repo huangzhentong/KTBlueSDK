@@ -6,11 +6,11 @@
 //  Copyright © 2019 KT--stc08. All rights reserved.
 //
 
-#import "BaseModel.h"
+#import "KTBaseModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 //蓝牙信息
-@interface KTIBeaconModel : BaseModel
+@interface KTIBeaconModel : KTBaseModel
 @property(nonatomic)double x;                      //x
 @property(nonatomic)double y;                      //y
 @property(nonatomic,copy)NSString * rssi;                      //x

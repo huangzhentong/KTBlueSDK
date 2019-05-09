@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
+#import "KTBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 //输入车位号
-@interface KTNearParkingPlaceViewController : BaseViewController
+@interface KTNearParkingPlaceViewController : KTBaseViewController
 
 @end
 
