@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 //车场信息管理
 @interface KTParkInfoManager : NSObject
 @property(nonatomic,copy)KTParkDetailModel *detalModel;
+
 +(instancetype)shareInstance;
 
 
@@ -30,10 +31,19 @@ NS_ASSUME_NONNULL_END
 
 
 @interface KTParkInfoManager (iBeacon)
-@property(nonatomic,strong)NSMutableDictionary *ibeaconDic;
+@property(nullable,nonatomic,strong)NSMutableDictionary *ibeaconDic;
 //获取存储的蓝牙信号
 +(nullable CLBeacon* )getIbeaconsInfo:(CLBeacon*_Nullable)beacon;
 //存储蓝牙信号
 +(void)saveIbeaconsInfo:(CLBeacon*_Nonnull)beacon;
 
 @end
+//车位
+@interface KTParkInfoManager (CarPark)
+@property(nullable,nonatomic,copy)NSArray<KTParkPointModel*> *carParkArray;
+//根据坐标获取车位
++(KTParkPointModel*_Nullable)getCarParkWithPoint:(CGPoint)point;
+
+
+@end
+

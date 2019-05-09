@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(instancetype)shareInstance;
 -(id)requestJSONWithURL:(NSString*)url;
 -(id)requestJSONWithURL:(NSString*)url withParameters:(NSDictionary*)dic  withType:(NSString*)type;
+-(id)requestJSONWithURL:(NSString*)url withParameters:(NSDictionary*)dic  withType:(NSString*)type withShowLoading:(BOOL)isLoading;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "BaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 //AR找车
-@interface KTARViewController : UIViewController
+@interface KTARViewController : BaseViewController
 
 @end
 

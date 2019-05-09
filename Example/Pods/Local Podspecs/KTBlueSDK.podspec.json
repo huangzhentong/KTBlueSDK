@@ -1,9 +1,9 @@
 {
   "name": "KTBlueSDK",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of KTBlueSDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/181310067@qq.com/KTBlueSDK",
+  "homepage": "https://github.com/huangzhentong/KTBlueSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,21 +12,22 @@
     "181310067@qq.com": "huangzhentong@keytop.com.cn"
   },
   "source": {
-    "git": "https://github.com/181310067@qq.com/KTBlueSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/huangzhentong/KTBlueSDK.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "KTBlueSDK/Classes/**",
+  "resources": "KTBlueSDK/Assets/*",
   "frameworks": [
     "UIKit",
     "CoreLocation",
     "CoreMotion",
     "Foundation",
-    "AVFoundation",
-    "c++"
+    "AVFoundation"
   ],
+  "libraries": "c++",
   "dependencies": {
     "Masonry": [
 
@@ -50,7 +51,5 @@
 
     ]
   },
-  "ios": {
-    "vendored_frameworks": "KTBlueSDK/Class/KTFindCarSDK.framework"
-  }
+  "vendored_frameworks": "KTBlueSDK/Classes/KTFindCarSDK.framework"
 }

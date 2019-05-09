@@ -16,6 +16,10 @@
 #define KTFindUsersLocationInfoURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/app-api/findUsersLocationInfo"]
 //App获取找车线路
 #define KTFindFlastRouteURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/app-api/findFlashRoute"]
+//查找车位坐标点
+#define KTFindBusNumberPointURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/service/find_car/findBusNumberPoint"]
+
+#define KTCollectIBeaconsURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/debug/collect/ibeacon"]
 
 NS_ASSUME_NONNULL_BEGIN
 

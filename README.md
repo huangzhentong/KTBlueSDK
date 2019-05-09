@@ -26,5 +26,18 @@ pod 'KTBlueSDK'
 
 ## License
 
-KTBlueSDK is available under the MIT license. See the LICENSE file for more info.
-dd
+1.项目中使用到了摄像头，定位及http请求
+需要在plist 中添加 Privacy - Location When In Use Usage Description
+Privacy - Camera Usage Description
+App Transport Security Settings
+这三个权限
+
+2.使用中记得先设置BaseURL 如
+[KTFindCarManager initSDKWithBaseURL:@"https://ts.keytop.cn/fc_test"];
+完整的URL如下
+https://ts.keytop.cn/fc_test/app-api/getParkingInfo
+
+3.调用SDK视图
+[KTFindCarManager openKTFindCarViewController:@“车场ID” withCarNumber:@"车牌号" withViewController:self withPush:true];
+
+

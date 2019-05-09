@@ -20,5 +20,7 @@
 +(id)iBeaconLocate:(NSArray *)Inbeacons
          withAngle:(CGFloat)angle
     withStepNumber:(NSInteger)stepNumber;
+//退出SDK
++(int)navigationExitSDK;
 
 @end

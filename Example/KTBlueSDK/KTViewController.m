@@ -11,6 +11,7 @@
 #import <KTFindCarSDK/KTFindCarManager.h>
 
 @interface KTViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -19,10 +20,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
      [KTFindCarManager initSDKWithBaseURL:@"https://ts.keytop.cn/fc_test"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [KTFindCarManager openKTFindCarViewController:@"2513" withCarNumber:@"闽D669S9" withViewController:self withPush:true];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

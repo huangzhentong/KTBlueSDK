@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic)double y;                      //y
 @property(nonatomic)NSInteger pointID;        //id
 @property(nonatomic)int pointType;                  //类型
+@property(nonatomic,copy)NSString * busNumber;        //车位信息
 @property(nonatomic)BOOL visited;                  //类型
 @property(nullable,nonatomic,copy)NSArray <KTParkPointModel*>* neighbours;        //邻居位置
 

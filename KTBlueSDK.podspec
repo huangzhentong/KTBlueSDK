@@ -30,11 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
- # s.source_files = 'KTBlueSDK/Classes/**'
-  
-   s.resource_bundles = {
-     'KTBlueSDK' => ['KTBlueSDK/Assets/*.bundle']
-   }
+  s.source_files = 'KTBlueSDK/Classes/**'
+  s.resource = 'KTBlueSDK/Assets/*'
+   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'CoreLocation', 'CoreMotion','Foundation','AVFoundation'
