@@ -1,5 +1,5 @@
 //
-//  BaseViewController.h
+//  KTBaseViewController.h
 //  KTFindCarSDK
 //
 //  Created by KT--stc08 on 2019/4/25.
@@ -9,7 +9,7 @@
 #import <ReactiveObjC/ReactiveObjC.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BaseViewController : UIViewController
+@interface KTBaseViewController : UIViewController
 @property(nonatomic,strong)RACSignal *signal;
 @property(nonatomic,strong)RACDisposable * disposable;
 -(void)bindVM;

@@ -20,10 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 //打开找车视图 传入viewController ,viewCotroller 为空时获则获取当前控制器
 //isPush true 为 push 方式 。false 为present
-+(void)openKTFindCarViewController:(nonnull NSString*)lotID
++(void)openKTFindCarWithLotID:(nonnull NSString*)lotID
                      withCarNumber:(nonnull NSString*)carNumber
-                withViewController:(UIViewController*)viewController
-                          withPush:(BOOL)isPush;
+           withViewController:(nullable UIViewController*)viewController;
+
 
 //获取车场ID;
 +(NSString*)lotID;

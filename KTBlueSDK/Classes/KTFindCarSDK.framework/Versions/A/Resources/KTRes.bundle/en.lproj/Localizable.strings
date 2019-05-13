@@ -60,3 +60,6 @@
 "Reload" = "Reloading...";
 
 "ibeaconSearch"="iBeacon Searching ...";
+"arFindCarNorBlu"="Failed to obtain Bluetooth signal , please make sure you are in the carpark and move to another location to try again！";
+"arFindCarYes"="我知道了";
+"arFindCarBack"="back";

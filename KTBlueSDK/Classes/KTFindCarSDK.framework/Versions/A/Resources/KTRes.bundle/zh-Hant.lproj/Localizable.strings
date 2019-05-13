@@ -58,3 +58,7 @@
 
 //Error
 "Reload" = "重新加載...";
+"ibeaconSearch"="藍牙搜索中...";
+"arFindCarNorBlu"="當前位置獲取不到車場藍牙信號，請確保在停車場內，並移動到其他位置重試";
+"arFindCarYes"="我知道了";
+"arFindCarBack"="返回";

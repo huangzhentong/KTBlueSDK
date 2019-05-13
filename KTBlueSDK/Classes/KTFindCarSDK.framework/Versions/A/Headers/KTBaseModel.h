@@ -1,5 +1,5 @@
 //
-//  BaseModel.h
+//  KTBaseModel.h
 //  KOS-Objc
 //
 //  Created by KT--stc08 on 2018/7/12.
@@ -11,6 +11,6 @@
 
 #import <YYModel/NSObject+YYModel.h>
 
-@interface BaseModel : NSObject<YYModel,NSCopying,NSCoding>
+@interface KTBaseModel : NSObject<YYModel,NSCopying,NSCoding>
 
 @end
