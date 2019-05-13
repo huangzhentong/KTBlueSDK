@@ -38,6 +38,6 @@ App Transport Security Settings
 https://ts.keytop.cn/fc_test/app-api/getParkingInfo
 
 3.调用SDK视图
-[KTFindCarManager openKTFindCarViewController:@“车场ID” withCarNumber:@"车牌号" withViewController:self withPush:true];
+ [KTFindCarManager openKTFindCarWithLotID:@"2513" withCarNumber:@"闽C661s9" withViewController:nil];
 
 
