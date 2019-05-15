@@ -5,31 +5,60 @@
   Created by KT--stc08 on 2019/3/29.
   Copyright © 2019 181310067@qq.com. All rights reserved.
 */
-"ParkTitle"="停车场";
-//车辆信息
-"Floor" = "所在楼层";
-"ParkSpace" = "车位地点";
-"ParkAddress" = "车位地址";
+"ParkTitle"="停車場";
+//車輛信息
+"Floor" = "所在樓層";
+"ParkSpace" = "車位地點";
+"ParkAddress" = "車位地址";
 
-"PathFind" = "找车路线";
-"BluFind" = "蓝牙找车";
+"PathFind" = "找車路線";
+"BluFind" = "藍牙找車";
 //
-"FindCarMessage1"="找您最近的车位";
-"FindCarMessage2"="找您最近的车位号，输入，即可导航";
-"NearParkLotNum" = "就近车位号";
-"InputParkLotNum" = "请输入车位号";
-"SureBtn" = "确定";
-//查找车位
-"FindParkSpaceTitle"= "查找车位";
-"PathMessage"="请在%@号车位 往%@走";
-"Left"="左手边";
-"Right"="右手边";
+"FindCarMessage1"="找您最近的車位";
+"FindCarMessage2"="找您最近的車位號，輸入，即可導航";
+"NearParkLotNum" = "就近車位號";
+"InputParkLotNum" = "請輸入車位號";
+"SureBtn" = "確定";
+//查找車位
+"FindParkSpaceTitle"= "查找車位";
+"PathMessage"="請在%@號車位 往%@走";
+"Left"="左手邊";
+"Right"="右手邊";
 
-//选择楼层
-"SelectFloor"="请选择当前所在楼层";
+//選擇樓層
+"SelectFloor"="請選擇當前所在樓層";
 
 
 //AR
-"CarNum" = "车牌号";
-"ParkNo" = "车位号";
-"NaviOver" = "您已到达车位附近\n导航结束";
+"AR" = "AR找車";
+"CarNum" = "車牌號";
+"ParkNo" = "車位號";
+"NaviOver" = "您已到達車位附近\n導航結束";
+
+
+//提示
+"UserFloor"="您的樓層";
+"CarFloor"="停車樓層";
+"Tips"="友情提示";
+"TipsMessage"="*請先到同壹樓層，以便我們為您導航";
+"Cancel" = "取消";
+"TheSameFloor"="已到同壹樓層";
+
+
+
+//權限設置
+"PhoneSetting"="請在iPhone的”設置-隱私-相機“選項中，允許App訪問妳的相機";
+"GoSetting" = "前去開啟";
+"LocationSetting"="您需要先打開定位服務，才能使用AR找車";
+"IKnow "="我知道了";
+
+
+//loading
+"Loading" = "加載中...";
+
+//Error
+"Reload" = "重新加載...";
+"ibeaconSearch"="藍牙搜索中...";
+"arFindCarNorBlu"="當前位置獲取不到車場藍牙信號，請確保在停車場內，並移動到其他位置重試";
+"arFindCarYes"="我知道了";
+"arFindCarBack"="返回";
