@@ -50,7 +50,7 @@
 "PhoneSetting"="请在iPhone的”设置-隐私-相机“选项中，允许App访问你的相机";
 "GoSetting" = "前去开启";
 "LocationSetting"="您需要先打开定位服务，才能使用AR找车";
-"IKnow "="我知道了";
+"IKnow"="我知道了";
 
 
 //loading
@@ -59,6 +59,8 @@
 //Error
 "Reload" = "重新加载...";
 "ibeaconSearch"="蓝牙搜索中...";
+
 "arFindCarNorBlu"="当前位置获取不到车场蓝牙信号，请确保在停车场内，并移动到其他位置重试";
 "arFindCarYes"="我知道了";
 "arFindCarBack"="返回";
+"kt_warnBluth"="您需要先打开蓝牙，才能使用蓝牙找车";

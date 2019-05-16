@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTBlueSDK'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of KTBlueSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
    
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'CoreLocation', 'CoreMotion','Foundation','AVFoundation'
+   s.frameworks = 'UIKit', 'CoreLocation', 'CoreMotion','Foundation','AVFoundation','CoreBluetooth'
 
 s.library = 'c++'
  
