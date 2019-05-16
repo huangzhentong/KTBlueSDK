@@ -50,7 +50,7 @@
 "PhoneSetting"="Pls allow APP access your camera at iPhone Setting-Privacy-Camera";
 "GoSetting" = "Switch to setting page";
 "LocationSetting"="Initiate Bluetooth function first to enable AR finding";
-"IKnow "="Ok";
+"IKnow"="Ok";
 
 
 //loading
@@ -63,3 +63,4 @@
 "arFindCarNorBlu"="Failed to obtain Bluetooth signal , please make sure you are in the carpark and move to another location to try again！";
 "arFindCarYes"="I Know";
 "arFindCarBack"="back";
+"kt_warnBluth"="nitiate Bluetooth function first";

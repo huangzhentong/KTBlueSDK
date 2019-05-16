@@ -50,7 +50,7 @@
 "PhoneSetting"="請在iPhone的”設置-隱私-相機“選項中，允許App訪問妳的相機";
 "GoSetting" = "前去開啟";
 "LocationSetting"="您需要先打開定位服務，才能使用AR找車";
-"IKnow "="我知道了";
+"IKnow"="我知道了";
 
 
 //loading
@@ -62,3 +62,4 @@
 "arFindCarNorBlu"="當前位置獲取不到車場藍牙信號，請確保在停車場內，並移動到其他位置重試";
 "arFindCarYes"="我知道了";
 "arFindCarBack"="返回";
+"kt_warnBluth"="您需要先打開藍牙，才能使用藍牙找車";
