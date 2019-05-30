@@ -5,20 +5,20 @@
   Created by KT--stc08 on 2019/3/29.
   Copyright © 2019 181310067@qq.com. All rights reserved.
 */
-"ParkTitle"="停車場";
+"KTParkTitle"="停車場";
 //車輛信息
-"Floor" = "所在樓層";
-"ParkSpace" = "車位地點";
-"ParkAddress" = "車位地址";
+"KTFloor" = "所在樓層";
+"KTParkSpace" = "車位地點";
+"KTParkAddresse" = "車位地址";
 
-"PathFind" = "找車路線";
-"BluFind" = "藍牙找車";
+"KTPathFind" = "找車路線";
+"KTBluFind" = "藍牙找車";
 //
-"FindCarMessage1"="找您最近的車位";
-"FindCarMessage2"="找您最近的車位號，輸入，即可導航";
-"NearParkLotNum" = "就近車位號";
-"InputParkLotNum" = "請輸入車位號";
-"SureBtn" = "確定";
+"KTFindCarMessage1"="找您最近的車位";
+"KTFindCarMessage2"="找您最近的車位號，輸入，即可導航";
+"KTNearParkLotNum" = "就近車位號";
+"KTInputParkLotNum" = "請輸入車位號";
+"KTSureBtn" = "確定";
 //查找車位
 "FindParkSpaceTitle"= "查找車位";
 "PathMessage"="請在%@號車位 往%@走";

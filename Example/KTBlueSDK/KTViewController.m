@@ -10,6 +10,8 @@
 //#import <KTSDKHeader.h>
 #import <KTFindCarSDK/KTFindCarManager.h>
 
+
+
 @interface KTViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *parkTF;
@@ -22,8 +24,7 @@
 - (void)viewDidLoad
 {
     
-    
-    
+ 
     [super viewDidLoad];
     self.parkTF.text = @"2513";
     self.carNumberTF.text = @"闽C661s9";

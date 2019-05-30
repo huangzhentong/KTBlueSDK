@@ -5,20 +5,20 @@
   Created by KT--stc08 on 2019/3/29.
   Copyright © 2019 181310067@qq.com. All rights reserved.
 */
-"ParkTitle"="Carpark";
+"KTParkTitle"="Carpark";
 //Car Info.
-"Floor" = "Parking Floor";
-"ParkSpace" = "Parking Area";
-"ParkAddress" = "Parking Location";
+"KTFloor" = "Parking Floor";
+"KTParkSpace" = "Parking Area";
+"KTParkAddresse" = "Parking Location";
 
-"PathFind" = "Car Finding Route";
-"BluFind" = "Bluetooth Car Finding ";
+"KTPathFind" = "Car Finding Route";
+"KTBluFind" = "Bluetooth Car Finding ";
 //
-"FindCarMessage1"="Find nearest Parking Slot";
-"FindCarMessage2"="Input nearest Slot No.to start navigation";
-"NearParkLotNum" = "Nearest Slot No.";
-"InputParkLotNum" = "Pls input Slot No.";
-"SureBtn" = "Ok";
+"KTFindCarMessage1"="Find nearest Parking Slot";
+"KTFindCarMessage2"="Input nearest Slot No.to start navigation";
+"KTNearParkLotNum" = "Nearest Slot No.";
+"KTInputParkLotNum" = "Pls input Slot No.";
+"KTSureBtn" = "Ok";
 //≤È’“≥µŒª
 "FindParkSpaceTitle"= "Find Parking Slot";
 "PathMessage"="Pls%@Slot No. at%@";

@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,copy)NSString * minor;                      //y
 @property(nonatomic,copy)NSString * major;                      //y
 @property(nonatomic,copy)NSString* uuid;                      //y
+@property(nonatomic,copy)NSString *ibeaconID;
 @end
 
 NS_ASSUME_NONNULL_END

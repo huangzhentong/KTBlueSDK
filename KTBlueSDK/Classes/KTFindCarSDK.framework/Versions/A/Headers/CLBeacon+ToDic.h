@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CLBeacon (ToDic)
 @property(nonatomic)double x;
 @property(nonatomic)double y;
+
 -(NSDictionary*)dict;
 -(NSString*)beaconKey;
 @end

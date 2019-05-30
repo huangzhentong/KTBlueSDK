@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RequestModelManager.h"
+#import <BasisModule/RequestModelManager.h>
+
 @interface HttpRequestDisponse : NSObject<RequestModelDelegate>
 
 @end

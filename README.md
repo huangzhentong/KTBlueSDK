@@ -32,6 +32,8 @@ Privacy - Camera Usage Description
 App Transport Security Settings
 这三个权限
 
+测试服： https://ts.keytop.cn/fc_test/
+正式服： https://cloud.keytop.cn/fc/
 2.使用中记得先设置BaseURL 如
 [KTFindCarManager initSDKWithBaseURL:@"https://ts.keytop.cn/fc_test"];
 完整的URL如下
