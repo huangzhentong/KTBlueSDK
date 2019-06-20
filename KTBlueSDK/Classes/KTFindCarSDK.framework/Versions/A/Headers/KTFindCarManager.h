@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define KTDEBUG [KTFindCarManager debugModel]
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KTFindCarManager : NSObject
@@ -31,7 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 +(NSString*)carNumber;
 //获取基本URL
 +(NSString*)baseURL;
-
+//设置是否开启debug 模式，默认不开启
++(void)setDebugModel:(NSInteger)debug;
++(NSInteger)debugModel;
 @end
 
 NS_ASSUME_NONNULL_END

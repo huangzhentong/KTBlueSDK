@@ -7,11 +7,12 @@
 //
 
 #import "KTAppDelegate.h"
-
+#import "GHConsole.h"
 @implementation KTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[GHConsole sharedConsole] startPrintLog];
     // Override point for customization after application launch.
     return YES;
 }

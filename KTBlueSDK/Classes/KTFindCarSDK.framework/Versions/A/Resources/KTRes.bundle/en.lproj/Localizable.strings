@@ -64,3 +64,4 @@
 "arFindCarYes"="I Know";
 "arFindCarBack"="back";
 "kt_warnBluth"="nitiate Bluetooth function first";
+"soLibFailed"="This function is not available in this carpark";

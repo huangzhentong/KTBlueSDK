@@ -30,8 +30,9 @@ PODS:
   - BasisModule/Networking (1.1.2):
     - AFNetworking
     - BasisModule/Manager
+  - GHConsole (1.4)
   - IQKeyboardManager (6.3.0)
-  - KTBlueSDK (0.1.7):
+  - KTBlueSDK (0.1.9):
     - BasisModule
     - IQKeyboardManager
     - Masonry
@@ -52,12 +53,14 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
+  - GHConsole
   - KTBlueSDK (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - BasisModule
+    - GHConsole
     - IQKeyboardManager
     - Masonry
     - MGJRouter
@@ -75,8 +78,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BasisModule: 3a15fd76207bc0c86de230a1d115be9e2785ec4b
+  GHConsole: 583832a64daf8e4cf719bef028afc6273e01ea37
   IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
-  KTBlueSDK: 03c36d913d07756de5d95f770e315f6c7693f398
+  KTBlueSDK: 31b19497579eca6d4d9af78a8cc2e02a64a84b60
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
@@ -86,6 +90,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 2718837481d765a1ecef34e48ae5c8d19d5e195d
+PODFILE CHECKSUM: 69f711ee97897b32666a579b49af3bcc6408a9e0
 
 COCOAPODS: 1.6.1

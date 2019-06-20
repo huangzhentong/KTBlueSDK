@@ -21,7 +21,7 @@
 "KTSureBtn" = "Ok";
 //≤È’“≥µŒª
 "FindParkSpaceTitle"= "Find Parking Slot";
-"PathMessage"="Pls%@Slot No. at%@";
+"PathMessage"="Pls %@ Slot No. at %@";
 "Left"="Turn Left";
 "Right"="Turn Right";
 
@@ -64,3 +64,4 @@
 "arFindCarYes"="I Know";
 "arFindCarBack"="back";
 "kt_warnBluth"="nitiate Bluetooth function first";
+"soLibFailed"="This function is not available in this carpark";

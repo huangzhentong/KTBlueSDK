@@ -64,3 +64,5 @@
 "arFindCarYes"="我知道了";
 "arFindCarBack"="返回";
 "kt_warnBluth"="您需要先打开蓝牙，才能使用蓝牙找车";
+
+"soLibFailed"="该车场暂未开放该功能";

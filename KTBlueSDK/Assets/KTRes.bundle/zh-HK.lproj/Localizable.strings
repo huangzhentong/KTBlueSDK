@@ -21,9 +21,9 @@
 "KTSureBtn" = "確定";
 //查找車位
 "FindParkSpaceTitle"= "查找車位";
-"PathMessage"="請在%@號車位 往%@走";
-"Left"="左手邊";
-"Right"="右手邊";
+"PathMessage"="請在%@號車位 往%@";
+"Left"="左走";
+"Right"="右走";
 
 //選擇樓層
 "SelectFloor"="請選擇當前所在樓層";
@@ -63,3 +63,4 @@
 "arFindCarYes"="我知道了";
 "arFindCarBack"="返回";
 "kt_warnBluth"="您需要先打開藍牙，才能使用藍牙找車";
+"soLibFailed"="該車場暫未開放該功能";
