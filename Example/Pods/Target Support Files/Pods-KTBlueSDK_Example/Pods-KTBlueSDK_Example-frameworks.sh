@@ -155,6 +155,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BasisModule/BasisModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GHConsole/GHConsole.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KTBlueSDK/KTBlueSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework"
@@ -169,6 +170,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/BasisModule/BasisModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GHConsole/GHConsole.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KTBlueSDK/KTBlueSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGJRouter/MGJRouter.framework"

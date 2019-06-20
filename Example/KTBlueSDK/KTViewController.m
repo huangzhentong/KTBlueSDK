@@ -8,6 +8,7 @@
 
 #import "KTViewController.h"
 //#import <KTSDKHeader.h>
+#import "GHConsole.h"
 #import <KTFindCarSDK/KTFindCarManager.h>
 
 
@@ -29,6 +30,8 @@
     self.parkTF.text = @"2513";
     self.carNumberTF.text = @"闽C661s9";
     [KTFindCarManager initSDKWithBaseURL:@"https://ts.keytop.cn/fc_test"];
+ 
+  
     
 }
 - (IBAction)startBtnEvent:(id)sender {

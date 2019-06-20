@@ -44,7 +44,7 @@ typedef struct _KT_iBeaconList			//同一个基站不同时间，接收到的信号
 
 }KT_iBeaconList;
 
-typedef struct _KT_iBeacon				//记录读取到的蓝牙信息struct 
+typedef struct _KT_iBeacon				//记录读取到的蓝牙信息
 {
 	KT_iBPoint iBpositon;
 	int iBproxi;
@@ -62,7 +62,7 @@ typedef struct _KT_floorInfo			//记录读取车场楼层信息
 
 	KT_Point parkPoint;					//车位停放坐标
 
-    _KT_KeyPoint *keyPoints;			//关键点信息
+	_KT_KeyPoint *keyPoints;			//关键点信息
 	int keyPointsNum;					//关键点个数
 
 	KT_Point manPoint;                  //当前人物位置
